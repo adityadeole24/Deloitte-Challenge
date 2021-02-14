@@ -11,7 +11,7 @@
   - [Amazon API Gateway](#amazon-api-gateway)
   - [AWS Lambda](#aws-lambda)
   - [AWS IAM](#aws-iam)
-  - [Amazon Cognito](#amazon-cognito)
+  - [Amazon Cognito and SNS Topic](#amazon-cognito-and-sns-topic)
   - [Amazon Cloudfront and Amazon S3](#amazon-cloudfront-and-amazon-s3)
   - [Amazon Cloudwatch](#amazon-cloudwatch)
 
@@ -150,6 +150,29 @@ DataPolicy
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:Scan 
 
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:DeleteItem 
+
+&nbsp;
+
+### Amazon Cognito and SNS Topic
+
+Amazon Cognito handles user account authentication and authorization for this web application. The user visits the website and during the sign-in process Amazon SNS topic sends an email request to the user to verify if the user is geniuine or not.
+
+&nbsp;
+
+### Amazon CloudFront and Amazon S3
+Amazon CloudFront hosts the web application frontend that users interface with.  This includes web assets like pages. CloudFormation pulls these resources from S3.
+
+&nbsp;
+
+### Amazon Certificate Manager
+Amazon Certificate Manager provides SSL/TLS certificates to seure network communication ans establish identity of this web application over the internet.
+
+&nbsp;
+
+### Amazon CloudWatch
+
+The capabilities provided by CloudWatch are not exposed to the end users of the web app, rather the developer can use CloudWatch logs, alarms, and graphs to track the usage and performance of this web application.
+
 
 
 
