@@ -79,6 +79,10 @@ The final layer is the **Data Layer** which has the responsibility of persisting
 
 &nbsp;
 
+---
+
+&nbsp;
+
 ## Why Serverless ?
 
 A serverless application is an application in which the developer doesn’t have to manage any servers. It is a cloud computing approach in which AWS manages the servers and manages the scaling of the servers dynamically without the developer having to do anything. There are no operating systems to manage, no effort needs to be given to scale our application and most importantly there is no fixed cost. You pay as you go.
