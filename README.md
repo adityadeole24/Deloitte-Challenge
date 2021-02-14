@@ -133,8 +133,11 @@ The following IAM role (and included policies) provides Lambda to input data int
 
 **InputdataFunctionLambda**  
 *AWS managed policy*  
+
 AWSLambdaBasicExecutionRole  
+
 *Inline policy*  
+
 DataPolicy  
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:PutItem 
 
