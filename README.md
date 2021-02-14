@@ -64,6 +64,10 @@ To deploy this web application please follow the below steps:
 
 &nbsp;
 
+---
+
+&nbsp;
+
 ## 3 Tier Architecture
 
 A 3 tiered architecture consists of mainly 3 layers. The Presentation Layer, Application Layer, and the Data Layer. Each layer has its own set of responsibilities and uses communication methods to interact with the other layers.
