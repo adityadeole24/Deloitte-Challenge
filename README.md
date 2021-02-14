@@ -4,6 +4,7 @@
 - [Overview](#overview)
 - [Deployment Instructions](#deployment-instructions)
 - [3 Tier Architecture](#3-tier-architecture)
+- [Why Serverless ?](#why-serverless-?)
 - [Web Application Architecture](#web-application-architecture)
 - [Implementation details](#implementation-details)
   - [Amazon DynamoDB](#amazon-dynamodb)
@@ -76,6 +77,9 @@ The final layer is the **Data Layer** which has the responsibility of persisting
 **Architecture diagram**
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/3%20Tier%20Architecture.png)
 
+## Why Serverless ?
+
+A serverless application is an application in which the developer doesn’t have to manage any servers. It is a cloud computing approach in which AWS manages the servers and manages the scaling of the servers dynamically without the developer having to do anything. There are no operating systems to manage, no effort needs to be given to scale our application and most importantly there is no fixed cost. You pay as you go.
 
 
 
