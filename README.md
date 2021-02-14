@@ -64,7 +64,21 @@ To deploy this web application please follow the below steps:
 &nbsp;
 
 ## 3 Tier Architecture
-![]()
+
+A 3 tiered architecture consists of mainly 3 layers. The Presentation Layer, Application Layer, and the Data Layer. Each layer has its own set of responsibilities and uses communication methods to interact with the other layers.
+
+The **Presentation Layer** is basically the layer with which the end-user interacts. In this web application users interact to a single page application.
+
+The **Application layer** consists of the business logic of the project. 
+
+The final layer is the **Data Layer** which has the responsibility of persisting data and providing the Application Layer with necessary data. In this web application user data is persisted in Amazon DynamoDb.
+
+**Architecture diagram**
+![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/3%20Tier%20Architecture.png)
+
+
+
+
 
 
 
