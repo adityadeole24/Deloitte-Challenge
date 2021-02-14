@@ -91,9 +91,57 @@ The final layer is the **Data Layer** which has the responsibility of persisting
 
 A serverless application is an application in which the developer doesn’t have to manage any servers. It is a cloud computing approach in which AWS manages the servers and manages the scaling of the servers dynamically without the developer having to do anything. There are no operating systems to manage, no effort needs to be given to scale our application and most importantly there is no fixed cost. You pay as you go.
 
+&nbsp;
 
+---
 
+&nbsp;
 
+## Web Application Architecture
+
+&nbsp;
+
+---
+
+&nbsp;
+
+## Implementation Details
+
+&nbsp;
+
+### Amazon DynamoDB
+
+The backend of this web application leverages Amazon DynamoDB to enable dynamic scaling and the ability to add features if extentions are to be added in the future. The application creates one table in DynamoDB; the table name will match the "ResourcePrefix" and "EnvironmentName" when creating the stack in CloudFormation. DynamoDB's primary key consists of a partition (hash) key. An optional sort (range) key can be added if required. 
+
+&nbsp;
+
+### Amazon API Gateway
+
+Amazon API Gateway acts as the interface layer between the frontend (Amazon CloudFront, Amazon S3) and AWS Lambda, which calls the backend (DynmoDb).
+
+&nbsp;
+
+### AWS Lambda
+
+AWS Lambda is used to input user data into the DynamoDB database. In this application,Ihave user "Inputdata" Lambda Function which creats a DynamoDb table objectand inputs the user data into the table. 
+
+&nbsp;
+
+### IAM
+
+The following IAM role (and included policies) provides Lambda to input data inthe DynamoDb table:
+
+**DynamoDbLambda**  
+*AWS managed policy*  
+AWSLambdaBasicExecutionRole  
+*Inline policy*  
+GoalsPolicy  
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:PutItem  
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:Query 
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:UpdateItem
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:GetItem
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:Scan 
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:DeleteItem 
 
 
 
