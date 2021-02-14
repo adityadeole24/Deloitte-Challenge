@@ -135,13 +135,20 @@ The following IAM role (and included policies) provides Lambda to input data int
 *AWS managed policy*  
 AWSLambdaBasicExecutionRole  
 *Inline policy*  
-GoalsPolicy  
-&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:PutItem  
+DataPolicy  
+&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:PutItem 
+
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:Query 
+
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:UpdateItem
+
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:GetItem
+
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:Scan 
+
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:DeleteItem 
+
+
 
 
 
