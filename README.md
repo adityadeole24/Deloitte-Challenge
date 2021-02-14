@@ -127,7 +127,7 @@ AWS Lambda is used to input user data into the DynamoDB database. In this applic
 
 &nbsp;
 
-### IAM
+### AWS IAM
 
 The following IAM role (and included policies) provides Lambda to input data inthe DynamoDb table:
 
