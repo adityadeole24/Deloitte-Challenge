@@ -56,8 +56,8 @@ To deploy this web application please follow the below steps:
 
 - The output of the CloudFormation stack creation will provide a CloudFront URL (in the **Outputs** table of the stack details page).  Click the link or copy and paste the CloudFront URL into your browser.
 
-- You can sign into your application by registering an email address and a password.  Choose **Sign up to explore** to register.  The registration/login experience is run in your AWS account, and the supplied credentials are stored in Amazon Cognito.  
-*Note: given that this is a demonstration application, we highly suggest that you do not use an email and password combination that you use for other purposes (such as an AWS account, email, or e-commerce site).*
+- You can sign into your application by registering an email address and a password.  Choose **Sign up to explore** to register.  The registration/login experience runs in the AWS account, and the supplied credentials are stored in Amazon Cognito.  
+*Note: given that this application is only for demonstration purpose, please do not use an email and password combination that you use for other purposes (such as an AWS account, email, or e-commerce site).*
 
 - Once you provide your credentials, you will receive a verification code at the email address you provided. Upon entering this verification code, you will be signed into the application.
 
