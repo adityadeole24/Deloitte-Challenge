@@ -23,7 +23,7 @@ The goal of this interactive web application is to take data from the end user a
 
 **Database components**
 
-*  Amazon DynamoDB offers fast, predictable performance for the key-value lookups needed in this web app, and enormous scalability. In this implementation, unique identifiers are created for each data input, user's first name and last name along with time description.
+*  Amazon DynamoDB offers fast, predictable performance for the key-value lookups needed in this web app, and offers enormous scalability for any future extentions. In this implementation, unique identifiers are created for each data input, user's first name and last name along with time description.
 
 **Application components**
 
