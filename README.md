@@ -62,7 +62,7 @@ To deploy this web application please follow the below steps:
 
 **Paste API Gateway ID in index.html**
 
-![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/API%20gateway%20ID.png)
+![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/Index.html.PNG)
 
 6 Upload index.html and error.html into the s3 bucket manually
 
