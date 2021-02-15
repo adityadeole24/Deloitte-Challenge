@@ -64,13 +64,13 @@ To deploy this web application please follow the below steps:
 
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/Index.html.PNG)
 
-6 Upload index.html and error.html into the s3 bucket manually
+6 Go to [S3 Console](https://s3.console.aws.amazon.com/s3/home?region=ap-southeast-2#). Upload index.html and error.html into the "webapp-dev-webapps3" bucket manually. 
 
-7 Go to Cloudfront. Copy the domain name and paste it in the browser. Application user interface will open. 
+7 Go to  [Cloudfront Distributions](https://console.aws.amazon.com/cloudfront/home?region=ap-southeast-2#). Copy the domain name and paste it in the browser. Application user interface will open. 
 
 8 Input your first name and last name. Click the button "Call API"
 
-9 Check the status in the Dynamo Db table.
+9 Go to [DynamoDb Console](https://ap-southeast-2.console.aws.amazon.com/dynamodb/home?region=ap-southeast-2#tables:) . Select "webapp-dev-ddbtable". Check the user input data in the "items" tab. 
 
 
 &nbsp;
