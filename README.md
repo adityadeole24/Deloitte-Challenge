@@ -14,6 +14,7 @@
   - [Amazon Cognito and SNS Topic](#amazon-cognito-and-sns-topic)
   - [Amazon Cloudfront and Amazon S3](#amazon-cloudfront-and-amazon-s3)
   - [Amazon Cloudwatch](#amazon-cloudwatch)
+- [Extentions](#extentions)
 
 
 &nbsp;
@@ -173,7 +174,13 @@ Amazon Certificate Manager provides SSL/TLS certificates to seure network commun
 
 The capabilities provided by CloudWatch are not exposed to the end users of the web app, rather the developer can use CloudWatch logs, alarms, and graphs to track the usage and performance of this web application.
 
+&nbsp;
 
+---
+
+&nbsp;
+
+## Extentions
 
 
 
