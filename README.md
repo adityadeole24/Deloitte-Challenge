@@ -54,7 +54,7 @@ To deploy this web application please follow the below steps:
 
 4 Choose **Create stack**. This stack may take up to 15 minutes to complete.
 
-5 Once the stack is created, go to the [API Gateway console](https://ap-southeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-southeast-2). Select the "webapp-dev-WebAppApi". Copy the API Gateway ID and paste into the index.html available in S3Objects folder and save the file. 
+5 Once the stack is created, go to the [API Gateway console](https://ap-southeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-southeast-2). Select the "webapp-dev-WebAppApi". Copy the API Gateway ID and paste into the index.html available in S3Objects folder here: [index.html](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/S3Objects/index.html) and save the file. 
 
 **Copy API Gateway ID**
 
