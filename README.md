@@ -56,6 +56,10 @@ To deploy this web application please follow the below steps:
 
 5 Once the stack is created, copy the API Gateway ID from API gateway console and paste into the index.html available in S3Objects folder and save the file. 
 
+Copy API Gateay ID
+
+![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/API%20gateway%20ID.png)
+
 6 Upload index.html and error.html into the s3 bucket manually
 
 7 Go to Cloudfront. Copy the domain name and paste it in the browser. Application user interface will open. 
