@@ -54,7 +54,7 @@ To deploy this web application please follow the below steps:
 
 4 Choose **Create stack**. This stack may take up to 15 minutes to complete.
 
-5 Once the stack is created, copy the API Gateway ID from API gateway console and paste into the index.html available in S3Objects folder and save the file. 
+5 Once the stack is created, copy the API Gateway ID from [API Gateway console](https://ap-southeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-southeast-2) and paste into the index.html available in S3Objects folder and save the file. 
 
 Copy API Gateay ID
 
