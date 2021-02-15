@@ -64,6 +64,8 @@ To deploy this web application please follow the below steps:
 
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/Index.html.PNG)
 
+6 Download [index.html](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/S3Objects/index.html) and [error.html](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/S3Objects/error.html) in local machine. 
+
 6 Go to [S3 Console](https://s3.console.aws.amazon.com/s3/home?region=ap-southeast-2#). Upload index.html and error.html into the "webapp-dev-webapps3" bucket manually. 
 
 7 Go to  [Cloudfront Distributions](https://console.aws.amazon.com/cloudfront/home?region=ap-southeast-2#). Copy the domain name and paste it in the browser. Application user interface will open. 
