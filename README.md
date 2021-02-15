@@ -54,14 +54,16 @@ To deploy this web application please follow the below steps:
 
 4 Choose **Create stack**. This stack may take up to 15 minutes to complete.
 
-5 Sign into your application 
+5 Once the stack is created, copy the API Gateway ID from API gateway console and paste into the index.html available in S3Objects folder and save the file. 
 
-- The output of the CloudFormation stack creation will provide a CloudFront URL (in the **Outputs** table of the stack details page).  Click the link or copy and paste the CloudFront URL into your browser.
+6 Upload index.html and error.html into the s3 bucket manually
 
-- You can sign into your application by registering an email address and a password.  Choose **Sign up to explore** to register.  The registration/login experience runs in the AWS account, and the supplied credentials are stored in Amazon Cognito.  
-*Note: given that this application is only for demonstration purpose, please do not use an email and password combination that you use for other purposes (such as an AWS account, email, or e-commerce site).*
+7 Go to Cloudfront. Copy the domain name and paste it in the browser. Application user interface will open. 
 
-- Once you provide your credentials, you will receive a verification code at the email address you provided. Upon entering this verification code, you will be signed into the application.
+8 Input your first name and last name. Click the button "Call API"
+
+9 Check the status in the Dynamo Db table.
+
 
 &nbsp;
 
