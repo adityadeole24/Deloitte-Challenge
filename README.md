@@ -13,7 +13,7 @@
   - [AWS API Gateway](#aws-api-gateway)
   - [AWS Lambda](#aws-lambda)
   - [AWS DynamoDB](#aws-dynamodb)
-  - [AWS Cloudwatch](#amazon-cloudwatch)
+  - [AWS Cloudwatch](#aws-cloudwatch)
   - [AWS IAM](#aws-iam)
   - [AWS SNS Topic](#aws-sns-topic)
  - [Extensions](#extensions)
@@ -162,7 +162,7 @@ The backend of this web application leverages Amazon DynamoDB to enable dynamic 
 
 &nbsp;
 
-### AWS CloudWatch
+### AWS Cloudwatch
 
 The capabilities provided by CloudWatch are not exposed to the end users of the web app, rather the developer can use CloudWatch logs, alarms, and graphs to track the usage and performance of this web application.
 
