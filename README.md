@@ -16,7 +16,7 @@
   - [Amazon Cloudwatch](#amazon-cloudwatch)
   - [AWS IAM](#aws-iam)
   - [AWS SNS Topic](#aws-sns-topic)
-  
+ - [Extensions](#extensions)
 
 &nbsp;
 
