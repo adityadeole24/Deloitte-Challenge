@@ -212,7 +212,11 @@ For automated code deployment, the code can be hosted in AWS CodeCommit. The ide
 
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/High%20level%20Architecture%20with%20CodePipeline.png)
 
+### User Sign-up and Sign-in with AWS Cognito
 
+AWS Cognito can be utilized to handle user account creation and login for the web application. AWS Cognito can pass the CognitoIdentityID (which is the user ID) for every user along with every request from AWS API Gateway to AWS Lambda which will help the Cognito services authenticate against which user inputs what data etc.
+
+![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/High%20level%20Architecture%20with%20Cognito.png)
 
 
 
