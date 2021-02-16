@@ -17,7 +17,7 @@
   - [AWS Cloudwatch](#aws-cloudwatch)
   - [AWS IAM](#aws-iam)
   - [AWS SNS](#aws-sns)
-- [Extentions](#extentions)
+- [Future Extentions](#future-extentions)
 
 &nbsp;
 
@@ -212,7 +212,7 @@ A AWS SNS topic is deployed in sync with the CloudWatch Alarms. The developer ca
 
 &nbsp;
 
-## Extentions
+## Future Extentions
 
 The following extensions can be made to this application.
 
