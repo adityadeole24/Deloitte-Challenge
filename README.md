@@ -7,6 +7,7 @@
 - [Why Serverless](#why-serverless)
 - [Web Application Architecture](#web-application-architecture)
 - [Implementation details](#implementation-details)
+- [Extensions](#extensions)
   - [AWS WAF](#aws-waf)
   - [AWS Cloudfront](#aws-cloudfront)
   - [AWS S3](#aws-s3)
@@ -16,10 +17,7 @@
   - [AWS Cloudwatch](#aws-cloudwatch)
   - [AWS IAM](#aws-iam)
   - [AWS SNS](#aws-sns)
-  
- - [Extensions](#extensions)
-
-
+ 
 &nbsp;
 
 ## Overview
