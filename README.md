@@ -76,7 +76,7 @@ To deploy this web application please follow the below steps:
 9 Go to [DynamoDb Console](https://ap-southeast-2.console.aws.amazon.com/dynamodb/home?region=ap-southeast-2#tables:) . Select "webapp-dev-ddbtable". Check the user input data in the "items" tab. 
 
 
-# Deleting the stack
+### Deleting the stack
 
 To tear down the application and remove all resources associated with this web application, follow these steps:
 
