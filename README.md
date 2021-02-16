@@ -104,7 +104,7 @@ The final layer is the **Data Layer** which has the responsibility of persisting
 
 ## Why Serverless
 
-A serverless application is an application in which the developer doesn’t have to manage any servers. It is a cloud computing approach in which AWS manages the servers and manages the scaling of the servers dynamically without the developer having to do anything. There are no operating systems to manage, no effort needs to be given to scale our application and most importantly there is no fixed cost. You pay as you go.
+A serverless application is an application in which the developer doesn’t have to manage any servers. It is a cloud computing approach in which AWS manages the servers and manages the scaling of the servers dynamically without the developer having to do anything. There are no operating systems to manage, no effort needs to be given to scale the application and most importantly there is no fixed cost. You pay as you go.
 
 &nbsp;
 
@@ -126,21 +126,45 @@ A serverless application is an application in which the developer doesn’t have
 
 &nbsp;
 
-### Amazon DynamoDB
+### AWS WAF
 
-The backend of this web application leverages Amazon DynamoDB to enable dynamic scaling and the ability to add features if extentions are to be added in the future. The application creates one table in DynamoDB; the table name will match the "ResourcePrefix" and "EnvironmentName" when creating the stack in CloudFormation. DynamoDB's primary key consists of a partition (hash) key. An optional sort (range) key can be added if required. 
+AWS WAF is a web application firewall which helps to protect the web application by blocking common attack patterns such as SQL injection and cross-site scripting. You can define rules to filter out specific traffic patterns. For this web applciation, WAF is deployed at Cloudfront and API level. 
 
 &nbsp;
 
-### Amazon API Gateway
+### AWS CloudFront
 
-Amazon API Gateway acts as the interface layer between the frontend (Amazon CloudFront, Amazon S3) and AWS Lambda, which calls the backend (DynmoDb).
+AWS CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment. AWS cloudfront hosts the web application frontend that users interface with. AWS CloudFront syncs with AWS WAF to protect against multiple types of attacks including network and application layer DDoS attacks. 
+
+&nbsp;
+
+### AWS S3
+
+AWS S3 stores our static application data and delivers the data to the end users via AWS cloudfront
+
+&nbsp;
+
+### AWS API Gateway
+
+AWS API Gateway acts as the interface layer between the frontend (AWS CloudFront, AWS S3) and AWS Lambda, which calls the backend (AWS DynmoDb). This application utilizes REST API request/response model where a end user sends a request to input data and the lambda function responds to write the in dynamodb table synchronously. 
 
 &nbsp;
 
 ### AWS Lambda
 
-AWS Lambda is used to input user data into the DynamoDB database. In this application,Ihave user "Inputdata" Lambda Function which creats a DynamoDb table objectand inputs the user data into the table. 
+AWS Lambda is used to input user data into the DynamoDB database. In this application, "Inputdata" Lambda function will create a DynamoDb table object and inputs the user data into the table. 
+
+&nbsp;
+
+### AWSDynamoDB
+
+The backend of this web application leverages Amazon DynamoDB to enable dynamic scaling and the ability to add features if extentions are to be added in the future. The application creates one table in DynamoDB; the table name will match the "ResourcePrefix" and "EnvironmentName" when creating the stack in CloudFormation. DynamoDB's primary key consists of a partition (hash) key. An optional sort (range) key can be added if required. 
+
+&nbsp;
+
+### AWS CloudWatch
+
+The capabilities provided by CloudWatch are not exposed to the end users of the web app, rather the developer can use CloudWatch logs, alarms, and graphs to track the usage and performance of this web application.
 
 &nbsp;
 
@@ -170,25 +194,9 @@ DataPolicy
 
 &nbsp;
 
-### Amazon Cognito and SNS Topic
+### AWS SNS Topic
 
-Amazon Cognito handles user account authentication and authorization for this web application. The user visits the website and during the sign-in process Amazon SNS topic sends an email request to the user to verify if the user is geniuine or not.
-
-&nbsp;
-
-### Amazon CloudFront and Amazon S3
-Amazon CloudFront hosts the web application frontend that users interface with.  This includes web assets like pages. CloudFormation pulls these resources from S3.
-
-&nbsp;
-
-### Amazon Certificate Manager
-Amazon Certificate Manager provides SSL/TLS certificates to seure network communication ans establish identity of this web application over the internet.
-
-&nbsp;
-
-### Amazon CloudWatch
-
-The capabilities provided by CloudWatch are not exposed to the end users of the web app, rather the developer can use CloudWatch logs, alarms, and graphs to track the usage and performance of this web application.
+A SNS topic is deployed in sync with the CloudWatch Alarms. The developer can choose to alert and send notification if any CloudWatch Alarms are out of threshold.
 
 &nbsp;
 
@@ -197,6 +205,7 @@ The capabilities provided by CloudWatch are not exposed to the end users of the 
 &nbsp;
 
 ## Extentions
+
 
 
 
