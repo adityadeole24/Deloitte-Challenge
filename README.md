@@ -88,9 +88,9 @@ A 3 tiered architecture consists of mainly 3 layers. The Presentation Layer, App
 
 The **Presentation Layer** is basically the layer with which the end-user interacts. In this web application users interact to a single page application.
 
-The **Application layer** consists of the business logic of the project. 
+The **Application layer** consists of the business logic for this application. 
 
-The final layer is the **Data Layer** which has the responsibility of persisting data and providing the Application Layer with necessary data. In this web application user data is persisted in Amazon DynamoDb.
+The final layer is the **Data Layer** which has the responsibility of persisting data and providing the application Layer with necessary data. In this web application user data is persisted in Amazon DynamoDb.
 
 **Architecture diagram**
 
