@@ -156,7 +156,7 @@ AWS Lambda is used to input user data into the DynamoDB database. In this applic
 
 &nbsp;
 
-### AWSDynamoDB
+### AWS DynamoDB
 
 The backend of this web application leverages Amazon DynamoDB to enable dynamic scaling and the ability to add features if extentions are to be added in the future. The application creates one table in DynamoDB; the table name will match the "ResourcePrefix" and "EnvironmentName" when creating the stack in CloudFormation. DynamoDB's primary key consists of a partition (hash) key. An optional sort (range) key can be added if required. 
 
