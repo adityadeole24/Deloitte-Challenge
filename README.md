@@ -172,7 +172,7 @@ The capabilities provided by CloudWatch are not exposed to the end users of the 
 
 ### AWS IAM
 
-The following IAM role (and included policies) provides Lambda to input data inthe DynamoDb table:
+The following IAM role (and included policies) provides Lambda to input data in the DynamoDb table:
 
 **InputdataFunctionLambda**  
 *AWS managed policy*  
