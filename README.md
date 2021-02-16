@@ -15,8 +15,10 @@
   - [AWS DynamoDB](#aws-dynamodb)
   - [AWS Cloudwatch](#aws-cloudwatch)
   - [AWS IAM](#aws-iam)
-  - [AWS SNS Topic](#aws-sns-topic)
-- [Extensions](#extensions)
+  - [AWS SNS (#aws-sns)
+  
+ - [Extensions](#extensions)
+
 
 &nbsp;
 
