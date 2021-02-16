@@ -6,6 +6,7 @@
 - [3 Tier Architecture](#3-tier-architecture)
 - [Why Serverless](#why-serverless)
 - [Web Application Architecture](#web-application-architecture)
+  - [Infrastructure Diagram](#infrastructure-diagram) 
 - [Implementation details](#implementation-details)
   - [AWS WAF](#aws-waf)
   - [AWS Cloudfront](#aws-cloudfront)
@@ -114,7 +115,7 @@ A serverless application is an application in which the developer doesn’t have
 
 ## Web Application Architecture
 
-Infrastructure Diagram
+### Infrastructure Diagram
 
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/High%20level%20Architecture.png)
 
