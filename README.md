@@ -7,15 +7,16 @@
 - [Why Serverless](#why-serverless)
 - [Web Application Architecture](#web-application-architecture)
 - [Implementation details](#implementation-details)
-  - [Amazon DynamoDB](#amazon-dynamodb)
-  - [Amazon API Gateway](#amazon-api-gateway)
+  - [AWS WAF](#aws-waf)
+  - [AWS Cloudfront](#aws-cloudfront)
+  - [AWS S3](#aws-s3)
+  - [AWS API Gateway](#aws-api-gateway)
   - [AWS Lambda](#aws-lambda)
-  - [AWS IAM](#aws-iam)
-  - [Amazon Cognito and SNS Topic](#amazon-cognito-and-sns-topic)
-  - [Amazon Cloudfront and Amazon S3](#amazon-cloudfront-and-amazon-s3)
+  - [AWS DynamoDB](#aws-dynamodb)
   - [Amazon Cloudwatch](#amazon-cloudwatch)
-- [Extentions](#extentions)
-
+  - [AWS IAM](#aws-iam)
+  - [AWS SNS Topic](#aws-sns-topic)
+  
 
 &nbsp;
 
