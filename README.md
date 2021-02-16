@@ -192,9 +192,9 @@ DataPolicy
 
 &nbsp;
 
-### AWS SNS Topic
+### AWS SNS 
 
-A SNS topic is deployed in sync with the CloudWatch Alarms. The developer can choose to alert and send notification if any CloudWatch Alarms are out of threshold.
+A AWS SNS topic is deployed in sync with the CloudWatch Alarms. The developer can choose to alert and send notification if any CloudWatch Alarms are out of threshold.
 
 &nbsp;
 
@@ -204,6 +204,13 @@ A SNS topic is deployed in sync with the CloudWatch Alarms. The developer can ch
 
 ## Extentions
 
+The following extensions can be made to this application.
+
+### Automated Code Deployment Pipeline using AWS CodeCommit, AWS CodeBuild and AWS CodePipeline
+
+For automated code deployment, the code can be hosted in AWS CodeCommit. The idea here is that AWS CodePipeline will build the web application using AWS CodeBuild. After successfully building, CodeBuild copies the build artifacts into a S3 bucket where the web application assets will maintained (web graphics, etc.).
+
+![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/High%20level%20Architecture%20with%20CodePipeline.png)
 
 
 
