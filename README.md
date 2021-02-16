@@ -76,6 +76,14 @@ To deploy this web application please follow the below steps:
 9 Go to [DynamoDb Console](https://ap-southeast-2.console.aws.amazon.com/dynamodb/home?region=ap-southeast-2#tables:) . Select "webapp-dev-ddbtable". Check the user input data in the "items" tab. 
 
 
+# Deleting the stack
+
+To tear down the application and remove all resources associated with this web application, follow these steps:
+
+Log into the [AWS Cloudformation console](https://ap-southeast-2.console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/) and find the stack you created for this web application
+Delete the stack
+Once the stack is deleted, go into the [DynamoDb Console](https://ap-southeast-2.console.aws.amazon.com/dynamodb/home?region=ap-southeast-2#tables:) and delete the "webapp-dev-ddbtable" manually. the DynamoDb table is persisted after you delete the stack becuase sensitive information is stored in the database and for security reasons this won't be deleted when you delete the stack.
+
 &nbsp;
 
 ---
