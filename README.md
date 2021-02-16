@@ -45,7 +45,7 @@ To deploy this web application please follow the below steps:
 
 1 Log-in to the [AWS console](https://console.aws.amazon.com/)
 
-2 Open the [AWS Cloudformation console](https://ap-southeast-2.console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/) and create a new stack using web.yaml file available in this repository. 
+2 Open the [AWS Cloudformation console](https://ap-southeast-2.console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/) and create a new stack using Web.Yaml file available in this repository. 
 
 3 Continue through the CloudFormation wizard steps
 
