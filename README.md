@@ -23,11 +23,11 @@
 
 ## Overview
 
-The goal of this web application is to take input data from the end user and store it in the database. The provided Cloudformation template automates the creation and entire deployment of this web application. The template includes following components:
+The goal of this web application is to take input data from the end user and store it in the database. The provided Cloudformation template automates the creation and deployment of this web application. The template includes following components:
 
 **Database components**
 
-*  Amazon DynamoDB offers fast, predictable performance for the key-value lookups needed in this web app, and offers enormous scalability for any future extentions. In this implementation, unique identifiers are created for each data input, user's first name and last name along with time description.
+* Amazon DynamoDB offers fast, predictable performance for the key-value lookups needed in this web app, and offers enormous scalability for any future extentions. In this implementation, unique identifiers are created for each data input, user's first name and last name along with time description.
 
 **Application components**
 
