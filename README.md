@@ -22,7 +22,7 @@
 
 ## Overview
 
-The goal of this interactive web application is to take data from the end user and store it in the database. The provided Cloudformation template automates the creation and entire deployment of this web application. The template includes following components:
+The goal of this web application is to take input data from the end user and store it in the database. The provided Cloudformation template automates the creation and entire deployment of this web application. The template includes following components:
 
 **Database components**
 
@@ -93,6 +93,7 @@ The **Application layer** consists of the business logic of the project.
 The final layer is the **Data Layer** which has the responsibility of persisting data and providing the Application Layer with necessary data. In this web application user data is persisted in Amazon DynamoDb.
 
 **Architecture diagram**
+
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/3%20Tier%20Architecture.png)
 
 &nbsp;
@@ -112,6 +113,8 @@ A serverless application is an application in which the developer doesn’t have
 &nbsp;
 
 ## Web Application Architecture
+
+![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/3%20Tier%20Architecture.png)
 
 &nbsp;
 
