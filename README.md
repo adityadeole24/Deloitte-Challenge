@@ -188,8 +188,6 @@ DataPolicy
 
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:GetItem
 
-&nbsp;&nbsp;&nbsp;&nbsp;dynamodb:Scan 
-
 &nbsp;&nbsp;&nbsp;&nbsp;dynamodb:DeleteItem 
 
 &nbsp;
