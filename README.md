@@ -114,6 +114,8 @@ A serverless application is an application in which the developer doesn’t have
 
 ## Web Application Architecture
 
+Infrastructure Diagram
+
 ![](https://github.com/adityadeole24/Deloitte-Challenge/blob/main/Readme-images/High%20level%20Architecture.png)
 
 &nbsp;
