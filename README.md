@@ -51,7 +51,6 @@ To deploy this web application please follow the below steps:
 3 Continue through the CloudFormation wizard steps
 
 - Name your stack, e.g. MyWebApp
-- Provide a project name, e.g. webapp
 - After reviewing, check the blue box for creating IAM resources.
 
 4 Choose **Create stack**. This stack may take up to 15 minutes to complete.
